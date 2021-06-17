@@ -1,0 +1,71 @@
+/*reset css*/
+* {margin: 0; padding: 0;}
+body {font-size: 12px; 
+      font-family: futura-pt, sans-serif;
+      font-style: normal;
+      font-weight: 500;}
+li {list-style: none;}
+img {border: 0;}
+a {text-decoration: none; color: inherit;}
+
+header {background-color: #63759D; width: 100%; height: 70px; display: flex; justify-content: center; align-items: center;}
+
+
+nav {width: 100%; display: flex; justify-content: center; align-items: center; margin-bottom: 10px;  }
+nav .wrap{display: block; width: 1024px; height: 70px; border: 0px solid red;}
+nav ul {display: flex; justify-content: space-around; align-items: center;}
+nav ul li{}
+nav li a {display: block; width: 180px; height: 40px; color: #63759D; font-size: 18px; font-weight: 600; text-align: center; line-height: 40px; margin-top: 10px;}
+nav li a:hover{color: #FFFFFF; background-color: #63759D;}
+
+section .slideradio input[id*="slide"] {display: none;}
+
+section .slideradio .slidewrap {max-width: 1024px; height: 458px; margin: 0 auto; overflow: hidden; position:relative;}
+
+section .slideradio .slidelist {white-space: nowrap; font-size: 0;}
+section .slideradio .slidelist li { display: inline-block; vertical-align: middle; width: 100%; transition: all 1s;}
+section .slideradio .slidelist li a {display: block; position: relative;}
+
+section .slideradio .slide-control {position: absolute; z-index: 10; top: 0; left:0; width:100%; height:100%;}
+section .slideradio .slide-control label {position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); padding: 50px; cursor: pointer;}
+section .slideradio .slide-control .left {left: 0px; background: url('../img/left.png') center center / 100% no-repeat;}
+section .slideradio .slide-control .right {right: 0px; background: url('../img/right.png') center center/ 100% no-repeat;}
+section .slideradio .slide-control [class*="control"] {display:none;}
+
+section .slideradio [id="slide01"]:checked ~ .slidewrap .slidelist li  {transform: translateX(0%);}
+section .slideradio [id="slide02"]:checked ~ .slidewrap .slidelist li  {transform: translateX(-100%);}
+
+section .slideradio [id="slide01"]:checked ~ .slidewrap .control01 {display:block;}
+section .slideradio [id="slide02"]:checked ~ .slidewrap .control02 {display:block;}
+
+section .contents {width: 100%; height: 1800px; margin-bottom: 100px;}
+
+section .contents .contents01 {width: 100%; height: 480px; overflow: hidden; display: flex; justify-content: center; align-items: center; background-color: #DEE4F1;}
+section .contents .contents01 .content_round01 {width: 300px; height: 300px; float: left; margin-right: 143px;}
+section .contents .contents01 .content_text01 {width: 450px;  float: left; margin-top: 20px;}
+section .contents .contents01 .content_text01 p1 {line-height: 60px; font-size: 50px; font-weight: 600; color: #000000; text-align: center; letter-spacing: -3px;}
+section .contents .contents01 .content_text01 p2 {line-height: 60px; font-size: 35px; font-weight: 500; color: #000000; text-align: center; letter-spacing: -1px;}
+
+section .contents .contents02 {width: 100%; height: 480px; overflow: hidden; margin: 0 auto; display: flex; justify-content: center; align-items: center; background-color: #FFFFF1;}
+section .contents .contents02 .content_text02 {width: 450px; float: left; margin-top: 20px;}
+section .contents .contents02 .content_text02 p1 {line-height: 60px; font-size: 50px; font-weight: 600; color: #000000; text-align: center; letter-spacing: -3px;}
+section .contents .contents02 .content_text02 p2 {line-height: 60px; font-size: 35px; font-weight: 500; color: #000000; text-align: center; letter-spacing: -1px;}
+section .contents .contents02 .content_round02 {width: 300px; height: 300px; float: left; margin-left: 143px;}
+
+section .contents .contents03 {width: 100%; height: 480px; overflow: hidden; display: flex; justify-content: center; align-items: center; background-color: #DEE4F1;}
+section .contents .contents03 .content_round03 {width: 300px; height: 300px; float: left; margin-right: 143px;}
+section .contents .contents03 .content_text03 {width: 450px; float: left; margin-top: 20px;}
+section .contents .contents03 .content_text03 p1 {line-height: 60px; font-size: 50px; font-weight: 600; color: #000000; text-align: center; letter-spacing: -3px;}
+section .contents .contents03 .content_text03 p2 {line-height: 60px; font-size: 35px; font-weight: 500; color: #000000; text-align: center; letter-spacing: -1px;}
+
+section .contents .contents04 {width: 100%; height: 480px; overflow: hidden; margin: 0 auto; display: flex; justify-content: center; align-items: center; background-color: #FFFFF1;}
+section .contents .contents04 .content_text04 {width: 450px; float: left; margin-top: 20px;}
+section .contents .contents04 .content_text04 p1 {line-height: 60px; font-size: 50px; font-weight: 600; color: #000000; text-align: center; letter-spacing: -3px;}
+section .contents .contents04 .content_text04 p2 {line-height: 60px; font-size: 35px; font-weight: 500; color: #000000; text-align: center; letter-spacing: -1px;}
+section .contents .contents04 .content_round04 {width: 300px; height: 300px; float: left; margin-left: 143px;}
+
+
+footer {background-color: #63759D; width: 100%; height: 70px; overflow: hidden; display: flex; justify-content: center; align-items: center;}
+.logo {width: 280px; height: 50px; float: left;}
+p {width: 454px; line-height: 10px; font-size: 15px; font-weight: 500; color: #fff; float: left; margin-top: 5px; margin-left: 300px;}
+
