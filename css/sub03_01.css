@@ -18,7 +18,7 @@ nav ul li{}
 nav li a {display: block; width: 180px; height: 40px; color: #63759D; font-size: 18px; font-weight: 600; text-align: center; line-height: 40px; margin-top: 10px;}
 nav li a:hover{color: #FFFFFF; background-color: #63759D;}
 
-section {width: 100%; height: 2000px;}
+section {width: 100%; height: 2100px;}
 section .nav {width: 400px;; height: 60px; overflow: hidden; padding-left: 320px; margin: 0 auto;}
 section .nav .nav_01 {width: 130px; font-size: 18px; font-weight: 600; color: #63759D; float: left; text-align: center;}
 section .nav .nav_02 {width: 110px; font-size: 13px; font-weight: 400; color: #A1ACC4; float: left; text-align: center;}
@@ -28,7 +28,7 @@ section .visual01_b {width: 100%; height: 424px; margin-top: 13px; background: u
 section .visual {width: 1024px; height: 450px; margin: 0 auto; margin-top: 13px;}
 section .visual .visual01_e {width: 511px; height: 424px; position: relative;}
 
-section .interview {width: 100%; height: 1220px;}
+section .interview {width: 100%; height: 1200px;}
 
 section .interview .interview01_text01 {}
 section .interview .interview01_text01 .interview01_text_box01 {width: 1024px; height: 460px;  margin: 0 auto;}
@@ -38,14 +38,14 @@ section .interview .interview01_text01 .interview01_text_box01 .bar {width: 22px
 section .interview .interview01_text01 .interview01_text_box01 .interview01_a01 {width: 700px; height: 30px; font-size: 15px; color: #000000; font-weight: 400; margin:0 auto; text-align: center; letter-spacing: -0.5px; line-height: 25px;}
 
 section .interview .interview01_text02 {background-color: #F5F5F5;}
-section .interview .interview01_text02 .interview01_text_box02 {width: 1024px; height: 360px; margin: 0 auto;}
+section .interview .interview01_text02 .interview01_text_box02 {width: 1024px; height: 400px; margin: 0 auto; padding-top: 40px;}
 section .interview .interview01_text02 .interview01_text_box02 .interview01_number02 {width: 250px; height: 80px; font-size: 120px; color: #C7C7C7; font-weight: 550; letter-spacing: -3px;}
 section .interview .interview01_text02 .interview01_text_box02 .interview01_q02 {width: 600px; height: 40px; font-size: 18px; color: #63759D; font-weight: 900; margin:0 auto; text-align: center; margin-top: 45px; letter-spacing: 0px; line-height: 27px;}
 section .interview .interview01_text02 .interview01_text_box02 .bar {width: 22px; height: 40px; margin: 0 auto;}
 section .interview .interview01_text02 .interview01_text_box02 .interview01_a02 {width: 700px; height: 30px; font-size: 15px; color: #000000; font-weight: 400; margin:0 auto; text-align: center; letter-spacing: -0.5px; line-height: 25px;}
 
 section .interview .interview01_text03 {margin-top: 30px;}
-section .interview .interview01_text03 .interview01_text_box03 {width: 1024px; height: 430px; margin: 0 auto;}
+section .interview .interview01_text03 .interview01_text_box03 {width: 1024px; height: 550px; margin: 0 auto;}
 section .interview .interview01_text03 .interview01_text_box03 .interview01_number03 {width: 250px; height: 80px; font-size: 120px; color: #C7C7C7; font-weight: 550; letter-spacing: -3px;}
 section .interview .interview01_text03 .interview01_text_box03 .interview01_q03 {width: 600px; height: 90px; font-size: 18px; color: #63759D; font-weight: 900; margin:0 auto; text-align: center; margin-top: 45px; letter-spacing: 0px; line-height: 27px;}
 section .interview .interview01_text03 .interview01_text_box03 .bar {width: 22px; height: 40px; margin: 0 auto;}
