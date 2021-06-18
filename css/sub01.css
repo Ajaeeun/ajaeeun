@@ -28,13 +28,13 @@ section .introduce .main_introduce_text_box .main_introduce_text {width: 166px; 
 
 section .introduce .introduce_text {width: 1024px; height: 200px; margin: 0 auto; padding-left: 40px;}
 section .introduce .introduce_text .introduce_text_box01 {width: 1024px; height: 50px;}
-section .introduce .introduce_text .introduce_text_box01 .introduce_text01 {width: 1000px; height: 30px; font-size: 20px; color: #000000; font-weight: 400;}
+section .introduce .introduce_text .introduce_text_box01 .introduce_text01 {width: 1020px; height: 30px; font-size: 18px; color: #000000; font-weight: 400;}
 
 section .introduce .introduce_text .introduce_text_box02 {width: 1024px; height: 50px; margin-top: 50px;}
-section .introduce .introduce_text .introduce_text_box02 .introduce_text02 {width: 1000px; height: 30px; font-size: 20px; color: #000000; font-weight: 400;}
+section .introduce .introduce_text .introduce_text_box02 .introduce_text02 {width: 1020px; height: 30px; font-size: 18px; color: #000000; font-weight: 400;}
 
 section .introduce .introduce_text .introduce_text_box03 {width: 1024px; height: 50px; margin-top: 50px;}
-section .introduce .introduce_text .introduce_text_box03 .introduce_text03 {width: 1000px; height: 30px; font-size: 20px; color: #000000; font-weight: 400;}
+section .introduce .introduce_text .introduce_text_box03 .introduce_text03 {width: 1020px; height: 30px; font-size: 18px; color: #000000; font-weight: 400;}
 
 
 section .history {width: 100%; height: 1380px; margin: 0 auto; background-color: #F5F5F5; padding-top: 60px;}
